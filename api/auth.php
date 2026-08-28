@@ -6,9 +6,9 @@ header('Content-Type: application/json; charset=utf-8');
 
 try {
     $pdo = new PDO(
-        'mysql:host=sql306.infinityfree.com;dbname=if0_42773941_lunox;charset=utf8mb4',
-        'if0_42773941',
-        '5i5rrXGDG1Hl3',
+        'mysql:host=bcmwiwcu7wsokpucujyr-mysql.services.clever-cloud.com;dbname=bcmwiwcu7wsokpucujyr;port=3306;charset=utf8mb4',
+        'u31nuek9ybom1mpt',
+        'Xu0NAevFvqrjmAkK9204',
         [
             PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
             PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
