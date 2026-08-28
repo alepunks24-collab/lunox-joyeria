@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LUNOX - Nosotros</title>
+    <link rel="icon" type="image/svg+xml" href="imagenes/favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="barra-nav">
+        <div class="contenedor-nav">
+            <a href="index.html" class="logo">LUNOX</a>
+            <nav>
+                <ul class="enlaces-nav">
+                    <li><a href="index.html">Catálogo</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="login.html">Iniciar sesión</a></li>
+                </ul>
+            </nav>
+            <div class="estado-sesion" id="estadoSesion"></div>
+            <button class="boton-menu" id="botonMenu" aria-label="Menu">Menu</button>
+        </div>
+        <nav class="nav-movil" id="navMovil">
+            <ul>
+                <li><a href="index.html" onclick="cerrarMenu()">Catálogo</a></li>
+                <li><a href="nosotros.html" onclick="cerrarMenu()">Nosotros</a></li>
+                <li><a href="contacto.html" onclick="cerrarMenu()">Contacto</a></li>
+                <li><a href="login.html" onclick="cerrarMenu()">Iniciar sesión</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="seccion-nosotros">
+        <div class="encabezado-seccion">
+            <p class="subtitulo-seccion">Sobre Nosotros</p>
+            <h2>Conoce a LUNOX</h2>
+            <p class="descripcion-hero">Somos una joyería de alma artesanal que crea piezas con carácter, elegancia y esencia hondureña.</p>
+        </div>
+        <div class="contenedor-nosotros">
+            <div class="texto-nosotros texto-nosotros-centrado">
+                <p>En LUNOX somos una joyería hondureña ubicada en La Lima, Honduras. Creamos y distribuimos accesorios llenos de brillo, estilo y calidad, pensando en cada cliente que quiere lucir detalles especial.</p>
+                <p>Nuestra oferta incluye diseños exclusivos y atención personalizada, con la promesa de convertir cada compra en una experiencia de lujo accesible y cercana.</p>
+                <p>Trabajamos para ser una marca confiable, reconocida por su elegancia, servicio amable y productos que resaltan la belleza en cada ocasión.</p>
+            </div>
+            <div class="imagen-nosotros">
+                <img src="imagenes/Meson.png" alt="Mesón LUNOX" loading="lazy">
+            </div>
+        </div>
+        <p class="valores-eyebrow">Lo que nos define</p>
+        <div class="contenedor-mision-vision">
+            <article class="tarjeta-mision">
+                <span class="icono-valor">
+                    <svg width="26" height="26" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.4"/>
+                        <circle cx="12" cy="12" r="5.2" stroke="currentColor" stroke-width="1.4"/>
+                        <circle cx="12" cy="12" r="1.6" fill="currentColor"/>
+                    </svg>
+                </span>
+                <h3>Misión</h3>
+                <p>Ofrecer joyería elegante y exclusiva que acompañe cada momento especial, con atención cercana, calidad excepcional y diseños que reflejen tu estilo único.</p>
+            </article>
+            <article class="tarjeta-vision">
+                <span class="icono-valor">
+                    <svg width="26" height="26" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M2.5 12S6.5 5 12 5s9.5 7 9.5 7-4 7-9.5 7-9.5-7-9.5-7z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/>
+                        <circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="1.4"/>
+                    </svg>
+                </span>
+                <h3>Visión</h3>
+                <p>Ser la joyería hondureña preferida por quienes buscan piezas con alma y personalidad, inspirando confianza y belleza en cada cliente a través de artesanía contemporánea.</p>
+            </article>
+        </div>
+        <div class="integrantes">
+            <h3>Equipo de la empresa</h3>
+            <div class="equipo-cards">
+                <article class="equipo-card">
+                    <strong class="equipo-nombre">Lourdes Jackeline Machado Tejada</strong>
+                    <span class="equipo-cargo">Directora General</span>
+                </article>
+                <article class="equipo-card">
+                    <strong class="equipo-nombre">Keren Georgina Galindo Abarca</strong>
+                    <span class="equipo-cargo">Subdirectora</span>
+                </article>
+                <article class="equipo-card">
+                    <strong class="equipo-nombre">Helen Dayana Ulloa Perdomo</strong>
+                    <span class="equipo-cargo">Jefa de Finanzas</span>
+                </article>
+                <article class="equipo-card">
+                    <strong class="equipo-nombre">Ashly Abigail Aviles Suazo</strong>
+                    <span class="equipo-cargo">Marketing</span>
+                </article>
+                <article class="equipo-card">
+                    <strong class="equipo-nombre">Andres David Mejia Hernandez</strong>
+                    <span class="equipo-cargo">Recursos Humanos</span>
+                </article>
+                <article class="equipo-card">
+                    <strong class="equipo-nombre">Angel Abdiel Garcia Alemán</strong>
+                    <span class="equipo-cargo">Encargado de Sistemas</span>
+                </article>
+            </div>
+        </div>
+    </main>
+
+    <footer class="pie-pagina">
+        <div class="contenido-pie">
+            <div class="marca-pie">
+                <h3 class="logo-pie">LUNOX</h3>
+                <p>Joyeria y accesorios exclusivos.<br>Honduras.</p>
+            </div>
+            <div class="enlaces-pie">
+                <h4>Navegacion</h4>
+                <ul>
+                    <li><a href="index.html">Catálogo</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="contacto-pie">
+                <h4>Contactanos</h4>
+                <p>WhatsApp: <a href="https://wa.me/50498665777" target="_blank"><span class="red-social-icon whatsapp-icon">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12.004 2.002C6.478 2.002 2 6.48 2 12.006c0 2.107.657 4.06 1.786 5.694L2 22l4.454-1.153A9.99 9.99 0 0011.998 22c5.526 0 10.004-4.478 10.004-9.994S17.53 2.002 12.004 2.002zm0 18.028c-1.614 0-3.13-.44-4.45-1.203l-.317-.192-2.64.683.706-2.578-.206-.335A7.962 7.962 0 014.008 12.01c0-4.42 3.596-8.015 7.996-8.015 4.405 0 7.995 3.594 7.995 8.015 0 4.42-3.59 8.015-7.995 8.015z" fill="currentColor"/>
+                            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.472-.148-.672.149-.198.297-.767.966-.94 1.163-.173.198-.347.223-.644.075-.297-.149-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.447-.52.149-.174.198-.298.298-.497.099-.198.05-.372-.025-.521-.075-.149-.672-1.612-.92-2.21-.242-.579-.487-.5-.672-.51l-.573-.01c-.198 0-.52.075-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.262.489 1.694.626.712.227 1.36.195 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.413-.074-.123-.273-.198-.57-.347z" fill="currentColor"/>
+                        </svg>
+                    </span>+504 9866-5777</a></p>
+            </div>
+        </div>
+        <div class="fondo-pie">
+            <p>2026 LUNOX Joyeria. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+
+</html>
